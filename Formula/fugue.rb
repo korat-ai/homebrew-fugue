@@ -7,14 +7,14 @@ class Fugue < Formula
     on_arm do
       url "https://github.com/korat-ai/fugue/releases/download/v#{version}/fugue-#{version}-osx-arm64.tar.gz"
       # sha256 is updated automatically by the release workflow via `brew bump-formula-pr`
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "7adf5b95b3439108fe1720c49a4855e0b9f0b4ed69fcc4a7b6f7628f40dc0a24"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/korat-ai/fugue/releases/download/v#{version}/fugue-#{version}-linux-x64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "96ae48ed23a287494812dded71ff3c2cd0ea1c671695e3316107ea272bf8ab37"
     end
   end
 
