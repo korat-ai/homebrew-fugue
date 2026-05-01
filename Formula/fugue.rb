@@ -1,20 +1,20 @@
 class Fugue < Formula
   desc "Fast F#/.NET AOT terminal coding agent — 40ms cold start, 46MB single binary"
   homepage "https://github.com/korat-ai/fugue"
-  version "0.2.3"
+  version "0.3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/korat-ai/fugue/releases/download/v#{version}/fugue-#{version}-osx-arm64.tar.gz"
       # sha256 is updated automatically by the release workflow via `brew bump-formula-pr`
-      sha256 "778bbf03c37d08e13552e0f4d6bac530e89ffc6c741f6495d0c736e1645cad11"
+      sha256 "88e9b71cf558d1077b130b6b2db9c3fdc9bcd434010b85b7992c5a00886bc070"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/korat-ai/fugue/releases/download/v#{version}/fugue-#{version}-linux-x64.tar.gz"
-      sha256 "c75fea29e2651dfa3e029094d4f14972bcd4be12d8ad8453a57d7d22d345b487"
+      sha256 "4c6acaadb55563d8ef352a6020e8d129f31c8637e831f5277f1039f43bab7154"
     end
   end
 
